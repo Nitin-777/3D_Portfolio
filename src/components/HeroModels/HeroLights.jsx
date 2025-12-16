@@ -6,7 +6,7 @@ const HeroLights = () => {
       <spotLight 
       position={[2,5,5]}
       intensity={100}
-      
+      // hi 
       />
     </>
   )
