@@ -1,6 +1,7 @@
 import React from 'react'
 import NavBar from './components/NavBar'
 import Hero from './sections/Hero'
+import LogoSection from './components/LogoSection'
 import ShowcaseSection from './sections/ShowcaseSection'
 
 const App = () => {
@@ -9,6 +10,7 @@ const App = () => {
    <NavBar></NavBar>
    <Hero></Hero>
    <ShowcaseSection />
+   <LogoSection></LogoSection>
    </>
   )
 }
