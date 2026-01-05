@@ -9,6 +9,25 @@ const words = [
   { text: "Code", imgPath: "/images/code.svg" },
 ];
 
+const navLinks = [
+  {
+    name: "Work",
+    link: "#work",
+  },
+  {
+    name: "Experience",
+    link: "#experience",
+  },
+  {
+    name: "Skills",
+    link: "#skills",
+  },
+  {
+    name: "Testimonials",
+    link: "#testimonials",
+  },
+];
+
 const counterItems = [
   { value: 15, suffix: "+", label: "Years of Experience" },
   { value: 200, suffix: "+", label: "Satisfied Clients" },
@@ -17,4 +36,4 @@ const counterItems = [
 ];
 
 
-export {words,counterItems};
+export {words,counterItems,navLinks};
